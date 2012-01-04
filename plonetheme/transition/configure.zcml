@@ -9,7 +9,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone 4 Theme: Bananaleaf"
+      title="Plone 4 Theme: Transition"
       directory="profiles/default"
       description="Installs the plonetheme.transition package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
