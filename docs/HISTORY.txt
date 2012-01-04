@@ -1,0 +1,19 @@
+Changelog
+=========
+
+0.1 (2012-01-04)
+----------------
+
+- Initial development [guidostevens]
+
+
+
+Credits
+=======
+
+Transition_ styling provided by Free CSS templates.
+
+Plone packaging based on `plonetheme.bananaleaf`_ by [giacomos]
+
+.. _Transition: http://www.freecsstemplates.org/preview/transition/
+.. _plonetheme.bananaleaf: http://pypi.python.org/pypi/plonetheme.bananaleaf
