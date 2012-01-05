@@ -19,8 +19,6 @@
     <!-- header -->
 
     <copy css:content="#portal-siteactions" css:theme="#topmenu" />
-    <prepend css:content="#portal-personaltools" css:theme="#topmenu" />
-
 
 <!--
     <append content='//*[@id="portal-searchbox"]' theme='//*[@id="topmenu"]' />
@@ -49,6 +47,8 @@
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
 
     <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
+
+    <before css:theme="#footer" css:content="#portal-personaltools"/>
 
 
 

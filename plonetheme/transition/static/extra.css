@@ -1,6 +1,5 @@
 /* extra styles / overrides to integrate with plone theme */
 
-#portal-personaltools,
 #portal-siteactions {
     display: inline-block;
     float: right;
@@ -17,7 +16,27 @@
     font-size: 100%;
 }
 
+h1 {
+    margin: 0.3em 0;
+}
+.documentByLine {
+    font-size: 85%;
+}
+.documentDescription {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
 #portal-footer {
     background-color: transparent;
     font-size: 80%;
+}
+
+#portal-personaltools {
+    float: right;
+    margin: 0 20px;
+}
+#portal-personaltools dd {
+    margin: 0;
+    padding: 0;
 }
