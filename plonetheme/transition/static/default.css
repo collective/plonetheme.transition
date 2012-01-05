@@ -222,18 +222,18 @@ hr {
 	padding-left: 20px;
 }
 
-#content-wrapper ul {
+#content-core ul {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
 }
 
-#content-wrapper ul li {
+#content-core ul li {
 	padding-left: 15px;
 	background: url(images/img08.gif) no-repeat 0 8px;
 }
 
-#content-wrapper ol {
+#content-core ol {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: lower-alpha inside;

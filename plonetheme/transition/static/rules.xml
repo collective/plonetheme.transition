@@ -9,7 +9,7 @@
         <theme href="index.html" />
     </rules>
 
-<!--    <before content-children='/html/head' theme='/html/head' />-->
+    <before content-children='/html/head' theme='/html/head' />
     <replace content="/html/head/title" theme="/html/head/title" />
     <replace content="/html/head/base" theme="/html/head/base" />
     <replace content="/html/head/meta" theme="/html/head/meta" />
@@ -30,14 +30,11 @@
 
     <before css:theme-children="#content-wrapper" css:content="#viewlet-above-content" />
 
-    <before css:theme="h1.title" css:content="#viewlet-above-content-title" />
-    <replace css:theme="h1.title" css:content="h1.documentFirstHeading" />
-    <after css:theme="h1.title" css:content="#viewlet-below-content-title" />
-    <after css:theme="h1.title" css:content="div.documentDescription" />
+    <replace css:theme="#content" css:content="#content" 
+             if-content="not(//*[@class='documentEditable'])"/>
 
-    <before css:theme="#content" css:content="#viewlet-above-content-body" />
-    <replace css:theme-children="#content" css:content-children="#content-core" />
-    <after css:theme="#content" css:content="#viewlet-below-content-body" />
+    <replace css:theme-children="#content-wrapper" css:content-children=".documentEditable" 
+             if-content="//*[@class='documentEditable']"/>
 
 
     <!-- columns -->

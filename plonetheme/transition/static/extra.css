@@ -16,6 +16,9 @@
     font-size: 100%;
 }
 
+#content {
+    font-size: 13px;
+}
 h1 {
     margin: 0.3em 0;
 }
@@ -32,11 +35,3 @@ h1 {
     font-size: 80%;
 }
 
-#portal-personaltools {
-    float: right;
-    margin: 0 20px;
-}
-#portal-personaltools dd {
-    margin: 0;
-    padding: 0;
-}
