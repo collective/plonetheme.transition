@@ -9,6 +9,10 @@
     margin-bottom: 0;
 }
 
+#portal-siteactions li:first-child a {
+    border-left: 0;
+}
+
 #portal-searchbox input {
     font-size: 100%;
 }
