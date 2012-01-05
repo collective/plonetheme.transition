@@ -1,0 +1,6 @@
+/* extra styles / overrides to integrate with plone theme */
+
+#topmenu ul li:first-child a,
+#topmenu dt a {
+    border-left: 0;
+}
