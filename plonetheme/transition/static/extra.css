@@ -1,6 +1,19 @@
 /* extra styles / overrides to integrate with plone theme */
 
-#topmenu ul li:first-child a,
-#topmenu dt a {
-    border-left: 0;
+#portal-personaltools,
+#portal-siteactions {
+    display: inline-block;
+    float: right;
+    padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#portal-searchbox input {
+    font-size: 100%;
+}
+
+#portal-footer {
+    background-color: transparent;
+    font-size: 80%;
 }
