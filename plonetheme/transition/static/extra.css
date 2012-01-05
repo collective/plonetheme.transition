@@ -30,9 +30,20 @@ h1 {
     font-weight: bold;
 }
 
-#content a:link,
-dl.portlet a:link {
+#content a:link {
 	color: #E06529;
+}
+
+#content a:link,
+#content a:visited {
+	color: #E06529 !important;
+        text-decoration: underline;
+        border-bottom: 0;
+}
+#content a:hover {
+	color: #E06529 !important;
+        text-decoration: none;
+        border-bottom: 0;
 }
 
 #portal-footer {
@@ -125,5 +136,16 @@ dl.portlet a:link {
         color: #E06529
         font-weight: bold;
         border: 0;
+}
+
+dl.portlet dd a:link,
+dl.portlet dd a:visited,
+#sidebar dl.portlet dd a:link,
+#sidebar dl.portlet dd a:visited {
+	color: #E06529 !important;
+}
+dl.portlet dd a:hover,
+#sidebar dl.portlet dd a:hover {
+    text-decoration: underline;
 }
 
