@@ -30,15 +30,13 @@
 
     <before css:theme-children="#content-wrapper" css:content="#viewlet-above-content" />
 
-    <replace css:theme="#content" css:content="#content" 
-             if-content="not(//*[@class='documentEditable'])"/>
-
-    <replace css:theme-children="#content-wrapper" css:content-children=".documentEditable" 
-             if-content="//*[@class='documentEditable']"/>
-
+    <replace css:theme="#content" css:content="#content" />
+    <before css:theme="#content" css:content="#kssPortalMessage" />
+    <before css:theme="#content" css:content="#edit-bar" />
 
     <!-- columns -->
 
+    <replace css:theme-children="div.twocols" css:content-children="#portal-column-one" />
     <replace css:theme-children="#sidebar" css:content-children="#portal-column-two" />
 
     <!-- footer -->

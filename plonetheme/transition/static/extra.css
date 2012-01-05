@@ -31,14 +31,8 @@ h1 {
 }
 
 #content a:link,
-dl.portlet a:link, {
+dl.portlet a:link {
 	color: #E06529;
-}
-#content dt a:link {
-    color: #85C329;
-}
-#content dt a:hover {
-	color: #E06529 !important;
 }
 
 #portal-footer {
@@ -46,17 +40,36 @@ dl.portlet a:link, {
     font-size: 80%;
 }
 
-/* Sidebar */
+/* div.twocols = leftcolumn */
 
-x#sidebar {
-	float: right;
-	width: 220px;
+
+.twocols .portletWrapper {
+    width: 220px;
+    float: right;
+    clear: right;
+}
+.twocols .managePortletsLink {
+    clear: both;
+}
+.twocols div.portletWrapper:first-child {
+   float: left;
 }
 
-x#sidebar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+.twocols dl.portlet dt.portletHeader {
+    color: #85C329;
+    font-size: 167%;
+    background-color: transparent;
+}
+.twocols dl.portlet dd {
+	padding: 20px;
+	background: url(images/img10.gif) no-repeat;
+}
+
+
+/* Sidebar = rightcolumn */
+
+#sidebar a:hover {
+        text-decoration: none;
 }
 
 #sidebar dl.portlet {
@@ -67,15 +80,10 @@ x#sidebar ul {
 	margin: 10px 20px;
 	padding: 5px 0;
 	border-bottom: 1px dotted #CDCDCD;
-        color: #E06529
+
 }
 #sidebar dd.portletFooter {
     padding-bottom: 15px;
-}
-
-x#sidebar li ul {
-	padding: 10px 20px;
-	font-size: 92%;
 }
 
 #sidebar dt.portletHeader {
@@ -89,29 +97,13 @@ x#sidebar li ul {
 
 #sidebar dl.portlet dt.portletHeader a {
 	padding: 6px 0 0 10px;
-	color: #145997;
+	color: #85C329;
 
 }
 #sidebar dl.portlet dd.portletItem a,
 #sidebar dl.portlet dd.portletFooter a {
-	color: #85C329;
+        color: #E06529
         font-weight: bold;
         border: 0;
 }
 
-x#sidebar p {
-	margin: 0;
-	line-height: normal;
-}
-
-x#sidebar a {
-	text-decoration: none;
-}
-
-x#sidebar a:hover {
-	text-decoration: underline;
-}
-
-x#sidebar .first {
-	border: none;
-}
