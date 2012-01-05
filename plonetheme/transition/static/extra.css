@@ -68,6 +68,26 @@ dl.portlet a:link {
 
 /* Sidebar = rightcolumn */
 
+#portal-searchbox {
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+#portal-searchbox form {
+    float: right;
+}
+#portal-searchbox input.searchButton {
+    margin: 0 5px 0 10px;
+    color: #145997;
+    font-weight: bold;
+}
+#portal-searchbox .searchSection {
+    display: none;
+}
+
+#sidebar .portletWrapper {
+    clear: right;
+}
 #sidebar a:hover {
         text-decoration: none;
 }
