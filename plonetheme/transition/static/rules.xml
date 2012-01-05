@@ -29,17 +29,18 @@
     <drop attributes="id" css:content="#portal-globalnav"/>
 
     <!-- content -->
-<!--
-    <replace content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
-    <drop attributes="class" css:content="#portal-column-content"/>
--->
-<!--
-    <drop css:theme="#content div"/>
-    <before css:theme-children="#page" css:content="#viewlet-above-content"/>
-    <before css:theme-children="#page" css:content="#edit-bar"/>
-    <append css:theme="#content" css:content-children="#content"/>
-    <append css:theme="#content" css:content="#viewlet-below-content"/>
--->
+
+    <before css:theme-children="#content-wrapper" css:content="#viewlet-above-content" />
+
+    <before css:theme="h1.title" css:content="#viewlet-above-content-title" />
+    <replace css:theme="h1.title" css:content="h1.documentFirstHeading" />
+    <after css:theme="h1.title" css:content="#viewlet-below-content-title" />
+    <after css:theme="h1.title" css:content="div.documentDescription" />
+
+    <before css:theme="#content" css:content="#viewlet-above-content-body" />
+    <replace css:theme-children="#content" css:content-children="#content-core" />
+    <after css:theme="#content" css:content="#viewlet-below-content-body" />
+
 
     <!-- columns -->
 

@@ -216,24 +216,24 @@ hr {
 
 /* Content */
 
-#content {
+#content-wrapper {
 	float: left;
 	width: 480px;
 	padding-left: 20px;
 }
 
-#content ul {
+#content-wrapper ul {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
 }
 
-#content ul li {
+#content-wrapper ul li {
 	padding-left: 15px;
 	background: url(images/img08.gif) no-repeat 0 8px;
 }
 
-#content ol {
+#content-wrapper ol {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: lower-alpha inside;
