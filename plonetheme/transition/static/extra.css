@@ -30,8 +30,88 @@ h1 {
     font-weight: bold;
 }
 
+#content a:link,
+dl.portlet a:link, {
+	color: #E06529;
+}
+#content dt a:link {
+    color: #85C329;
+}
+#content dt a:hover {
+	color: #E06529 !important;
+}
+
 #portal-footer {
     background-color: transparent;
     font-size: 80%;
 }
 
+/* Sidebar */
+
+x#sidebar {
+	float: right;
+	width: 220px;
+}
+
+x#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar dl.portlet {
+	background: #E6E6E6 url(images/img07.gif) no-repeat right bottom;
+        font-size: 93%;
+}
+#sidebar dd {
+	margin: 10px 20px;
+	padding: 5px 0;
+	border-bottom: 1px dotted #CDCDCD;
+        color: #E06529
+}
+#sidebar dd.portletFooter {
+    padding-bottom: 15px;
+}
+
+x#sidebar li ul {
+	padding: 10px 20px;
+	font-size: 92%;
+}
+
+#sidebar dt.portletHeader {
+	height: 30px;
+	margin: 0;
+	background: url(images/img06.gif) no-repeat;
+	font-size: 100%;
+	font-weight: bold;
+	color: #145997;
+}
+
+#sidebar dl.portlet dt.portletHeader a {
+	padding: 6px 0 0 10px;
+	color: #145997;
+
+}
+#sidebar dl.portlet dd.portletItem a,
+#sidebar dl.portlet dd.portletFooter a {
+	color: #85C329;
+        font-weight: bold;
+        border: 0;
+}
+
+x#sidebar p {
+	margin: 0;
+	line-height: normal;
+}
+
+x#sidebar a {
+	text-decoration: none;
+}
+
+x#sidebar a:hover {
+	text-decoration: underline;
+}
+
+x#sidebar .first {
+	border: none;
+}

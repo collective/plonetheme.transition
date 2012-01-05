@@ -39,6 +39,8 @@
 
     <!-- columns -->
 
+    <replace css:theme-children="#sidebar" css:content-children="#portal-column-two" />
+
     <!-- footer -->
 
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
