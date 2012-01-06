@@ -49,6 +49,7 @@
     </copy>
 
     <after css:theme-children="div.twocols" css:content="#portal-column-one div.managePortletsLink" />
+    <before css:theme-children="div.twocols" css:content="#portletmanager-plone-leftcolumn" />
 
     <replace css:theme-children="#sidebar" css:content="#portal-searchbox" />
     <after css:theme-children="#sidebar" css:content-children="#portal-column-two" />
