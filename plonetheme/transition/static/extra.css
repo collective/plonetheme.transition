@@ -32,12 +32,12 @@ h1 {
 
 #content a:link {
 	color: #E06529;
-}
-
-#content a:link,
-#content a:visited {
-	color: #E06529 !important;
         text-decoration: underline;
+        border-bottom: 0;
+}
+#content a:visited {
+	color: #E06529; !important;
+        text-decoration: none;
         border-bottom: 0;
 }
 #content a:hover {
@@ -53,17 +53,15 @@ h1 {
 
 /* div.twocols = leftcolumn */
 
-
-.twocols .portletWrapper {
-    width: 220px;
-    float: right;
+.twocols .col1 {
+    clear: left;
+}
+.twocols .col2 {
     clear: right;
 }
+
 .twocols .managePortletsLink {
     clear: both;
-}
-.twocols div.portletWrapper:first-child {
-   float: left;
 }
 
 .twocols dl.portlet dt.portletHeader {
@@ -71,7 +69,10 @@ h1 {
     font-size: 167%;
     background-color: transparent;
 }
-.twocols dl.portlet dd {
+.twocols dl.portlet dt.portletHeader a {
+    color: #85C329;
+}
+.twocols dl.portlet dd.portletItem {
 	padding: 20px;
 	background: url(images/img10.gif) no-repeat;
 }
@@ -142,10 +143,17 @@ dl.portlet dd a:link,
 dl.portlet dd a:visited,
 #sidebar dl.portlet dd a:link,
 #sidebar dl.portlet dd a:visited {
-	color: #E06529 !important;
+	color: #E06529;
 }
 dl.portlet dd a:hover,
 #sidebar dl.portlet dd a:hover {
+    color: #E06529 !important;
     text-decoration: underline;
+}
+dl.portlet ul.navTree a.navTreeCurrentItem {
+    color: black;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    border-left-color: #EEEEEE;
 }
 

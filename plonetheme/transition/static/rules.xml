@@ -36,7 +36,19 @@
 
     <!-- columns -->
 
-    <replace css:theme-children="div.twocols" css:content-children="#portal-column-one" />
+    <copy css:theme="div.twocols">
+      <xsl:for-each css:select="#portal-column-one div.portletWrapper">
+        <xsl:element name="div">
+          <xsl:attribute name="class">
+            <xsl:text>col</xsl:text>
+            <xsl:value-of select="2 - (position() mod 2)" />
+          </xsl:attribute>
+          <xsl:copy-of select="." />
+        </xsl:element>
+      </xsl:for-each>
+    </copy>
+
+    <after css:theme-children="div.twocols" css:content="#portal-column-one div.managePortletsLink" />
 
     <replace css:theme-children="#sidebar" css:content="#portal-searchbox" />
     <after css:theme-children="#sidebar" css:content-children="#portal-column-two" />
