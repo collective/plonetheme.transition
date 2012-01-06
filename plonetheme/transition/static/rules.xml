@@ -42,6 +42,7 @@
             <xsl:text>col</xsl:text>
             <xsl:value-of select="2 - (position() mod 2)" />
           </xsl:attribute>
+          <!-- original div.portletWrapper goes here -->
           <xsl:copy-of select="." />
         </xsl:element>
       </xsl:for-each>
