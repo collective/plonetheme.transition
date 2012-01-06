@@ -1,5 +1,11 @@
 /* extra styles / overrides to integrate with plone theme */
 
+#logo {
+    background: none;
+    padding: 0;
+    position: absolute;
+}
+
 #portal-siteactions {
     display: inline-block;
     float: right;

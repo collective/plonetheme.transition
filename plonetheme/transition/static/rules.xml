@@ -18,11 +18,10 @@
 
     <!-- header -->
 
-    <copy css:content="#portal-siteactions" css:theme="#topmenu" />
+    <replace css:theme="#logo h1" css:content="#portal-logo" />
+    <drop css:theme="#logo h2" />
 
-<!--
-    <append content='//*[@id="portal-searchbox"]' theme='//*[@id="topmenu"]' />
--->
+    <copy css:content="#portal-siteactions" css:theme="#topmenu" />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
     <drop attributes="id" css:content="#portal-globalnav"/>
 
