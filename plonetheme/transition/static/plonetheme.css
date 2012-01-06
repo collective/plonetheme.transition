@@ -18,6 +18,12 @@
     border-left: 0;
 }
 
+#menu ul {
+    padding-top: 0;
+}
+#menu ul li:first-child a {
+    background: none;
+}
 #portal-searchbox input {
     font-size: 100%;
 }
