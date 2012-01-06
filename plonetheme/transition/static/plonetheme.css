@@ -74,6 +74,18 @@ h1 {
     color: #205C90;
 }
 
+#relatedItemBox dt {
+    color: #85C329;
+    background-color: transparent;
+    font-size: 120%;
+    margin: 1em 0 0.5em;
+}
+#relatedItemBox dd {
+    margin: 0;
+    padding: 0.5em;
+    background: url(images/img10.gif) no-repeat;
+}
+
 /* div.twocols = leftcolumn */
 
 .twocols .col1 {
@@ -95,6 +107,7 @@ h1 {
 .twocols dl.portlet dt.portletHeader a {
     color: #85C329;
 }
+
 .twocols dl.portlet dd.portletItem {
 	padding: 20px;
 	background: url(images/img10.gif) no-repeat;
