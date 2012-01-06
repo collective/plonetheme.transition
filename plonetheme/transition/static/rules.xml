@@ -33,6 +33,8 @@
     <before css:theme="#content" css:content="#kssPortalMessage" />
     <before css:theme="#content" css:content="#edit-bar" />
 
+    <after css:theme-children="#content-wrapper" css:content="#viewlet-below-content" />
+
     <!-- columns -->
 
     <copy css:theme="div.twocols">
