@@ -57,6 +57,10 @@ h1 {
     font-size: 80%;
 }
 
+#footer #portal-personaltools a {
+    color: #205C90;
+}
+
 /* div.twocols = leftcolumn */
 
 .twocols .col1 {

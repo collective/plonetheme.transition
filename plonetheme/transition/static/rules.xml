@@ -59,7 +59,7 @@
 
     <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
 
-    <before css:theme="#footer" css:content="#portal-personaltools"/>
+    <before css:theme-children="#footer" css:content="#portal-personaltools"/>
 
 
 
