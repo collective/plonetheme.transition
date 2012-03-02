@@ -1,3 +1,10 @@
+/* custom project styles */
+
+.site-adhdcentrumlimburg dl#relatedItemBox dt {
+    display: none;
+}
+
+
 /* extra styles / overrides to integrate with plone theme */
 
 #logo {
@@ -41,6 +48,10 @@
 h1 {
     margin: 0.3em 0;
 }
+h2, h3 {
+    margin: 1em 0 0.5em;
+}
+
 .documentByLine {
     font-size: 85%;
 }
@@ -51,7 +62,7 @@ h1 {
 
 #content a:link {
 	color: #E06529;
-        text-decoration: underline;
+        text-decoration: none;
         border-bottom: 0;
 }
 #content a:visited {
@@ -63,6 +74,9 @@ h1 {
 	color: #E06529 !important;
         text-decoration: none;
         border-bottom: 0;
+}
+#content .relatedItems a:link {
+    text-decoration: none;
 }
 
 #portal-footer {
@@ -203,5 +217,7 @@ dl.portlet ul.navTree a.navTreeCurrentItem {
     font-weight: bold;
     background-color: #EEEEEE;
     border-left-color: #EEEEEE;
+    margin-left: 0;
+    margin-right: 0;
 }
 
