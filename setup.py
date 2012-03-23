@@ -9,7 +9,7 @@ setup(
         long_description=open('README.rst', 'rb').read()+'\n'+
                          open(os.path.join("docs", "INSTALL.txt")).read()+'\n'+
                          open(os.path.join("docs", "HISTORY.txt")).read(),
-        version='1.0',
+        version='1.1',
         author='Guido Stevens',
         author_email='guido.stevens@cosent.net',
         url='http://github.com/gyst/plonetheme.transition',
