@@ -1,11 +1,6 @@
-/* custom project styles */
-
-.site-adhdcentrumlimburg dl#relatedItemBox dt {
-    display: none;
-}
-
 
 /* extra styles / overrides to integrate with plone theme */
+
 
 #logo {
     background: none;
@@ -50,6 +45,15 @@ h1 {
 }
 h2, h3 {
     margin: 1em 0 0.5em;
+}
+
+h1, h2 {
+    letter-spacing: 0;
+}
+
+dl#relatedItemBox dt {
+   font-size: 167%;
+   font-weight: normal;
 }
 
 .documentByLine {
