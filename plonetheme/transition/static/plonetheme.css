@@ -64,6 +64,7 @@ dl#relatedItemBox dt {
     font-weight: bold;
 }
 
+
 #content a:link {
 	color: #E06529;
         text-decoration: none;
@@ -79,6 +80,12 @@ dl#relatedItemBox dt {
         text-decoration: none;
         border-bottom: 0;
 }
+#content h1 a,
+#content h2 a,
+#content h3 a {
+	color: #85C329 !important;
+}
+
 #content .relatedItems a:link {
     text-decoration: none;
     font-weight: bold;
