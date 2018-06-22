@@ -17,7 +17,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="plonetheme.transition: Uninstall profile for Plone 4 Diazo Theme"
+      title="plonetheme.transition Uninstall"
       directory="profiles/uninstall"
       description="Uninstalls the plonetheme.transition package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
