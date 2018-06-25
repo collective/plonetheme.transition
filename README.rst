@@ -26,7 +26,7 @@ Screenshots
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/gyst/plonetheme.transition/raw/master/screenshot.png
+.. image:: https://github.com/collective/plonetheme.transition/raw/master/screenshot.png
 
 
 Features
@@ -47,7 +47,7 @@ Zip file
 
 If you are an end user, you might enjoy installation via zip file import.
 
-1. Download a `zip file <https://github.com/gyst/plonetheme.transition/raw/master/transition.zip>`_.
+1. Download a `zip file <https://github.com/collective/plonetheme.transition/raw/master/transition.zip>`_.
 2. Import the theme from the Diazo theme control panel.
 
 Enabling the theme
@@ -84,8 +84,8 @@ Or, you can add it as a dependency on your own product ``setup.py`` file: ::
 Contribute
 ==========
 
-- Issue Tracker: https://github.com/gyst/plonetheme.transition/issues
-- Source Code: https://github.com/gyst/plonetheme.transition
+- Issue Tracker: https://github.com/collective/plonetheme.transition/issues
+- Source Code: https://github.com/collective/plonetheme.transition
 
 
 License
